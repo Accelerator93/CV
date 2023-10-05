@@ -578,37 +578,37 @@
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Tu nombre"
-                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control p-4" name="name" id="name" placeholder="Tu nombre"
+                                        required="required" data-validation-required-message="Porfavor ingresa tu nombre" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Tu email"
+                                    <input type="email" class="form-control p-4" name="email" id="email" placeholder="Tu email"
                                         required="required"
-                                        data-validation-required-message="Please enter your email" />
+                                        data-validation-required-message="Porfavor ingresa tu correo" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="subject" placeholder="Empresa"
-                                        required="required" data-validation-required-message="Please enter a subject" />
+                                    <input type="text" class="form-control p-4" name="subject" id="subject" placeholder="Empresa"
+                                        required="required" data-validation-required-message="Porfavor ingresa la empresa de donde me contactas" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="phone" placeholder="Teléfono"
-                                        required="required" data-validation-required-message="Please enter a phone" />
+                                    <input type="text" class="form-control p-4" name="phone" id="phone" placeholder="Teléfono"
+                                        required="required" data-validation-required-message="Porfavor ingresa tu número telefonico" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Mensaje"
+                                <textarea class="form-control py-3 px-4" rows="5" name="message" id="message" placeholder="Mensaje"
                                     required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
+                                    data-validation-required-message="Porfavor ingresa un mensaje"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Enviar
+                                <button class="btn btn-outline-primary" type="submit" name="sendMessageButton" id="sendMessageButton">Enviar
                                     </button>
                             </div>
                         </form>
