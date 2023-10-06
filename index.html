@@ -157,7 +157,6 @@
                 <a href="#qualification" class="nav-item nav-link">Calidad</a>
                 <a href="#skill" class="nav-item nav-link">Habilidades</a>
                 <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                <a href="#contact" class="nav-item nav-link">Contacto</a>
             </div>
         </div>
     </nav>
@@ -378,7 +377,7 @@
                             <h6 class="font-weight-bold">70%</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            <div class="progress-bar" style="background: rgb(234, 56, 56);" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -388,7 +387,17 @@
                             <h6 class="font-weight-bold">65%</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                            <div class="progress-bar" style="background: rgb(208, 154, 44);"  role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Computo en la nube</h6>
+                            <h6 class="font-weight-bold">30%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="background: rgb(186, 129, 24);" role="progressbar" aria-valuenow="30" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -398,7 +407,7 @@
                             <h6 class="font-weight-bold">60%</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            <div class="progress-bar" style="background: rgb(220, 45, 45);" role="progressbar" aria-valuenow="60" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -408,7 +417,7 @@
                             <h6 class="font-weight-bold">50%</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            <div class="progress-bar" style="background: rgb(48, 79, 216);" role="progressbar" aria-valuenow="50" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -418,7 +427,17 @@
                             <h6 class="font-weight-bold">30%</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                            <div class="progress-bar" style="background: rgb(61, 230, 185);" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Internet de las Cosas</h6>
+                            <h6 class="font-weight-bold">30%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="background: purple;" role="progressbar" aria-valuenow="30" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -525,23 +544,26 @@
     <div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Galleria</h1>
-                <h1 class="position-absolute text-uppercase text-primary">mi Portfolio</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">mi Portafolio</h1>
             </div>
             <div class="row">
                 <div class="col-12 text-center mb-2">
                     <ul class="list-inline mb-4" id="portfolio-flters">
                         <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Programación</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">redes</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Electrónica</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".four">Apps móviles</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".five">Marketing</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".six">Marketing</li>
                     </ul>
                 </div>
             </div>
             <div class="row portfolio-container">
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpeg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpeg" alt="Desarrollo de Apps moviles">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                             <a href="img/portfolio-1.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -549,11 +571,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portafolio-3.jpeg" alt="programacion en C">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portafolio-3.jpeg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/portafolio-2.jpeg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                            <a href="img/portafolio-2.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
@@ -561,9 +593,9 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio-.jpeg"  alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                            <a href="img/Portafolio-.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
